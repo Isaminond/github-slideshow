@@ -1,0 +1,41 @@
+// Establezco precio de las prendas
+console.clear();
+var precioRemera = 2040
+var precioPantalon = 1600
+var precioCinto =  2607
+
+// Establezco el aumento en las prendas
+
+var aumento30 = precioRemera + (precioRemera*0.30)
+var aumento40 = precioPantalon + (precioPantalon*0.40)
+var aumento20 = precioCinto + (precioCinto*0.20)
+
+// El precio final la suma entre el valor de la prenda y el aumento
+
+var ventaRemera = precioRemera + aumento30
+var ventaPantalon = precioPantalon + aumento40
+var ventaCinto = precioCinto + aumento20
+
+if (ventaRemera <= 4000) {
+  console.log (ventaRemera);
+  }
+  else {
+    console.log("Precio excedido");
+  }
+
+  if (ventaPantalon <= 4000) {
+    console.log(ventaPantalon);
+  }
+  else {
+console.log("Precio excedido");
+  }
+
+  if (ventaCinto <= 4000){
+    console.log(ventaCinto);
+
+  }
+
+  else {
+    console.log("Precio excedido");
+    
+  }
